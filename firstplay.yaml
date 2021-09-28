@@ -1,4 +1,6 @@
 ---
 - hosts: all
   tasks:
-    - command: "hostname"      
+    - command: "hostname"
+    - command: "uname -r"
+    - command: "free -h"      
